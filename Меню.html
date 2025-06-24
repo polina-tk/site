@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пицца-Патти - Наше меню</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">Пицца-Патти</div>
+            <nav>
+                <ul>
+                    <li><a href="Главная.html">Главная</a></li>
+                    <li><a href="Меню.html">Меню</a></li>
+                    <li><a href="Контакты.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <h1>Наше меню</h1>
+            
+            <div class="controls">
+                <div class="search-box">
+                    <input type="text" id="search" placeholder="Поиск пиццы..." aria-label="Поиск по меню">
+                </div>
+                <div class="sort-options">
+                    <button class="sort-btn" data-sort="price-asc">По цене ↑</button>
+                    <button class="sort-btn" data-sort="price-desc">По цене ↓</button>
+                </div>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-name="Маргарита" data-price="450" data-popular="5">
+                <a href="карточка.html" class="product-image-link">
+                    <div class="product-image" style="background-image: url('https://karfood.ru/wp-content/uploads/2024/03/27822980_1.jpg');"></div>
+                </a>
+                <div class="product-content">
+                    <a href="карточка.html" class="product-title-link">
+                        <h3 class="product-title">Маргарита</h3>
+                    </a>
+                    <p class="product-description">Классическая пицца с томатным соусом, моцареллой и базиликом</p>
+                    <div class="product-footer">
+                        <span class="product-price">450 ₽</span>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                </div>
+            </div>
+                
+                <div class="product-card" data-name="Пепперони" data-price="550" data-popular="8">
+                    <div class="product-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=3b93fb13c16a7c13446e33eeaf0ee28c5b4c3830-5658514-images-thumbs&n=13');"></div>
+                    <div class="product-content">
+                        <h3 class="product-title">Пепперони</h3>
+                        <p class="product-description">Острая пицца с колбасками пепперони и двойной порцией сыра</p>
+                        <div class="product-footer">
+                            <span class="product-price">550 ₽</span>
+                            <button class="add-to-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-name="Четыре сыра" data-price="600" data-popular="7">
+                    <div class="product-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=2869a0826cd517da381519ec5bed6719387323da-10125837-images-thumbs&n=13');"></div>
+                    <div class="product-content">
+                        <h3 class="product-title">Четыре сыра</h3>
+                        <p class="product-description">Нежнейшая пицца с сочетанием моцареллы, пармезана, дор блю и чеддера</p>
+                        <div class="product-footer">
+                            <span class="product-price">600 ₽</span>
+                            <button class="add-to-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-name="Гавайская" data-price="580" data-popular="6">
+                    <div class="product-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=f8c16e9629fee5f891bf0ba09175d90d72b9eb3f-5342042-images-thumbs&n=13');"></div>
+                    <div class="product-content">
+                        <h3 class="product-title">Гавайская</h3>
+                        <p class="product-description">Пицца с курицей, ананасами и сырным соусом для любителей необычных сочетаний</p>
+                        <div class="product-footer">
+                            <span class="product-price">580 ₽</span>
+                            <button class="add-to-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-name="Мясная" data-price="650" data-popular="9">
+                    <div class="product-image" style="background-image: url('https://avatars.mds.yandex.net/get-altay/1881734/2a00000186951993d0ceccee738ef7a5a4fb/XXL_height');"></div>
+                    <div class="product-content">
+                        <h3 class="product-title">Мясная</h3>
+                        <p class="product-description">Насыщенная пицца с ветчиной, пепперони, беконом и говядиной</p>
+                        <div class="product-footer">
+                            <span class="product-price">650 ₽</span>
+                            <button class="add-to-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-name="Вегетарианская" data-price="520" data-popular="4">
+                    <div class="product-image" style="background-image: url('https://okeansushi.ru/templates/sushi/blog/plyusyi-i-minusyi-vegetarianskoy-pitstsyi-2.jpg');"></div>
+                    <div class="product-content">
+                        <h3 class="product-title">Вегетарианская</h3>
+                        <p class="product-description">Пицца с болгарским перцем, помидорами, маслинами и сыром</p>
+                        <div class="product-footer">
+                            <span class="product-price">520 ₽</span>
+                            <button class="add-to-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-name="Карбонара" data-price="620" data-popular="7">
+                    <div class="product-image" style="background-image: url('https://static.tildacdn.com/tild6336-3934-4339-b338-343865356264/IMG_7214__1.jpg');"></div>
+                    <div class="product-content">
+                        <h3 class="product-title">Карбонара</h3>
+                        <p class="product-description">Пицца с беконом, сливочным соусом, яйцом и пармезаном</p>
+                        <div class="product-footer">
+                            <span class="product-price">620 ₽</span>
+                            <button class="add-to-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-name="Диабло" data-price="590" data-popular="6">
+                    <div class="product-image" style="background-image: url('https://avatars.mds.yandex.net/get-altay/2405086/2a00000171c7418975325d4f28a4b76fdcc1/XXXL');"></div>
+                    <div class="product-content">
+                        <h3 class="product-title">Диабло</h3>
+                        <p class="product-description">Очень острая пицца с пепперони, халапеньо и острым соусом</p>
+                        <div class="product-footer">
+                            <span class="product-price">590 ₽</span>
+                            <button class="add-to-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <button class="page-btn">1</button>
+                <button class="page-btn">2</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>О нас</h3>
+                    <p>Пиццерия "Пицца-Патти" - это место, где традиции итальянской кухни встречаются с современными вкусами.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p>г. Город, ул. Пиццерийная, 123</p>
+                    <p>+7 (904) 659-50-73</p>
+                    <p>info@pizza-patty.ru</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Часы работы</h3>
+                    <p>Пн-Пт: 10:00 - 23:00</p>
+                    <p>Сб-Вс: 11:00 - 00:00</p>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Пицца-Патти. Все права защищены.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
