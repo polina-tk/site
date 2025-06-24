@@ -19,6 +19,18 @@
             </nav>
         </div>
     </header>
+     <header>
+        <div class="container header-content">
+            <div class="logo">Пицца-Патти</div>
+            <nav>
+                <ul>
+                    <li><a href="Главная.html">Главная</a></li>
+                    <li><a href="Меню.html">Меню</a></li>
+                    <li><a href="Контакты.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
     <main>
         <div class="container">
@@ -34,22 +46,22 @@
                 </div>
             </div>
             
-            <div class="products-grid">
+            <div class="products-grid" id="products-container">
                 <div class="product-card" data-name="Маргарита" data-price="450" data-popular="5">
-                <a href="карточка.html" class="product-image-link">
-                    <div class="product-image" style="background-image: url('https://karfood.ru/wp-content/uploads/2024/03/27822980_1.jpg');"></div>
-                </a>
-                <div class="product-content">
-                    <a href="карточка.html" class="product-title-link">
-                        <h3 class="product-title">Маргарита</h3>
+                    <a href="карточка.html" class="product-image-link">
+                        <div class="product-image" style="background-image: url('https://karfood.ru/wp-content/uploads/2024/03/27822980_1.jpg');"></div>
                     </a>
-                    <p class="product-description">Классическая пицца с томатным соусом, моцареллой и базиликом</p>
-                    <div class="product-footer">
-                        <span class="product-price">450 ₽</span>
-                        <button class="add-to-cart">В корзину</button>
+                    <div class="product-content">
+                        <a href="карточка.html" class="product-title-link">
+                            <h3 class="product-title">Маргарита</h3>
+                        </a>
+                        <p class="product-description">Классическая пицца с томатным соусом, моцареллой и базиликом</p>
+                        <div class="product-footer">
+                            <span class="product-price">450 ₽</span>
+                            <button class="add-to-cart">В корзину</button>
+                        </div>
                     </div>
                 </div>
-            </div>
                 
                 <div class="product-card" data-name="Пепперони" data-price="550" data-popular="8">
                     <div class="product-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=3b93fb13c16a7c13446e33eeaf0ee28c5b4c3830-5658514-images-thumbs&n=13');"></div>
@@ -134,11 +146,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>            
             <div class="pagination">
-                <button class="page-btn">1</button>
-                <button class="page-btn">2</button>
+                <a href="Меню.html" class="page-btn active">1</a>
+                <a href="Меню 2.html" class="page-btn">2</a>
             </div>
         </div>
     </main>
@@ -167,5 +178,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="script 2.js"></script> 
 </body>
 </html>
